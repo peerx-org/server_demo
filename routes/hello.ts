@@ -9,4 +9,4 @@ router.get("/", (req, res) => {
   console.log(sendMsg().log);
 });
 
-export default router;
+export = router;

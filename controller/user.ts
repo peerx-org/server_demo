@@ -108,7 +108,7 @@ const getBalance = processRequest({
       });
       const balance = await getEvmBalance(user?.address);
 
-      await query(`UPDATE users SET balance =$1 WHERE username =$2`, [
+      await query(`UPDATE users SET balance_ =$1 WHERE username =$2`, [
         balance,
         req.params.username,
       ]);

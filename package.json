@@ -9,8 +9,7 @@
     "start": "nexujs start",
     "dev": "nexujs dev:ts",
     "serve": "tsc && node dist/server.js",
-    "update": "nexujs-cli update-deps",
-    "pkg": "npm i ../../nexu/packages/nexujs/nexujs-0.1.21.tgz"
+    "update": "nexujs-cli update-deps"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,7 @@
     "alchemy-sdk": "^3.5.1",
     "bcrypt": "^5.1.1",
     "ethers": "^6.13.5",
-    "nexujs": "file:../../nexu/packages/nexujs/nexujs-0.1.21.tgz",
+    "nexujs": "^0.1.29",
     "pg": "^8.13.1"
   },
   "devDependencies": {
@@ -28,8 +27,8 @@
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.7",
     "@types/pg": "^8.11.10",
-    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.1",
     "typescript": "^5.7.3"
   }
 }

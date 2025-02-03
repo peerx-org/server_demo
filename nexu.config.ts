@@ -18,7 +18,10 @@ export default defineConfig({
     limit: 20,
   },
   dev: {
-    // Only use this one development, don't add the NODE_ENV=development to your production env.
+    // Only use this on development, don't add the NODE_ENV=development to your production env.
     disableEncryption: true,
+  },
+  experimental: {
+    fileBasedRouting: false,
   },
 });

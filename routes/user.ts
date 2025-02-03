@@ -25,4 +25,4 @@ router.post(
   transferEther
 );
 
-export default router;
+export = router;
